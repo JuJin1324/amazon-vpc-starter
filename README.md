@@ -94,4 +94,7 @@
 > AWS Service 와 EC2 연결 시 외부망(IGW, NAT) 을 통해서 연결하지 않고 내부망 통신을 가능하다록 해주는 서비스.    
 > S3, DynamoDB, RDS 와 같은 AWS Service 에 대한 VPC Endpoint 를 사용하여 private EC2 인스턴스와
 > 외부망을 거치지 않고 내부망 통신을 가능하게 할 수 있다.  
-> VPC Endpoint 추가로는 비용을 따로 지불하지 않으며 데이터 transfer 비용만 청구될 뿐이다.
+
+### 비용
+> 2023.03.12 기준 시간당 0.013 USD 의 비용이 청구된다.  
+> 참조사이트: [AWS PrivateLink 요금](https://aws.amazon.com/ko/privatelink/pricing/)  
